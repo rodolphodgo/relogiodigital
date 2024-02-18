@@ -1,0 +1,44 @@
+/*Estilo da barra de navegação*/
+#barranavegacao {
+    background-color: #4682B4;
+
+}
+
+/*Importando fonte do Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+/*Editando formatação default de todas as tags*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Estilo do body*/
+body {
+    background: #B2BABB;
+}
+
+.relogio {
+    margin: 100px auto;
+    color: #ffffff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.relogio div div {
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+}
+
+.relogio div div span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.relogio div div span.tempo {
+    font-weight: bolder;
+    font-size: 30px;
+}
