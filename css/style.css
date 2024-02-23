@@ -19,7 +19,7 @@ body {
     background: #B2BABB;
 }
 
-.relogio {
+.clock {
     margin: 100px auto;
     color: #ffffff;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
@@ -27,18 +27,18 @@ body {
     letter-spacing: 3px;
 }
 
-.relogio div div {
+.clock div div {
     height: 170px;
     display: flex;
     flex-direction: column;
 }
 
-.relogio div div span {
+.clock div div span {
     font-weight: bolder;
     font-size: 60px;
 }
 
-.relogio div div span.tempo {
+.clock div div span.time {
     font-weight: bolder;
     font-size: 30px;
 }
